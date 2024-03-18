@@ -16,7 +16,7 @@
 
 ## Code and Resources Used  
 **Python Version:** 3.7   
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, mage 
+**Packages:** pandas, numpy 
 **Looker Studio:** Used to create a simple dashboard after the data had been cleaned and the data pipeline had been built.
 **Jupyter Notebooks:** Used to run code in Python for data cleaning and data analysis.
 **BigQuery API:** API creation to send data.
@@ -27,11 +27,11 @@
 
 ## YouTube Project Walk-Through
 For this project, I followed the below YouTube video series to familiarize myself with some data science tools:
-https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
+https://www.youtube.com/watch?v=WpQECq5Hx9g
 
 ## Data Collection and Modeling
 After collecting the data, I needed to map everything out to decide which tables and columns I was going to keep and which tables and columns I would need to create. I found it would be easier to break down the collected data into specific groups and create smaller tables. Below is an example of how I restructured the data:
-![]()
+![](https://github.com/backfire250/uber_pipeline/blob/main/lucid_chart.png)
 
 ## Data Cleaning
 I needed to clean up the data so that it would be consistent and usable for data analysis. I made the following changes and created the following tables:
@@ -50,10 +50,6 @@ I needed to clean up the data so that it would be consistent and usable for data
 * Looked at which data points correlated well and which ones didn't.
 * Set up pivot tables to drill down into the data.
 
-![](https://github.com/backfire250/Ernie_Portfolio/blob/main/images/correlation_viz.png)
-![](https://github.com/backfire250/Ernie_Portfolio/blob/main/images/pos_by_state.png)
-![](https://github.com/backfire250/Ernie_Portfolio/blob/main/images/salary_by_job_title.PNG)
-
 ## Data Pipeline Creation
 * In this step, I built a data pipeline using Mage AI to automate my entire process for future use.
 * The pipeline automatically collected new data, cleaned it using the code I wrote in the "Data Cleaning" step, and sent the cleaned data to a location where it could be viewed in a dashboard.
@@ -63,4 +59,4 @@ I created a simple dashboard here:
 * Using the tables I created for pickup and dropoff location, I was able to heatmap all of the various Uber trips and break them down by rate code and payment type.
 * I also created several graphs breaking down the average fare by rate code and payment type.
 * I then provided some general highlights from the data such as: average fare amount, average tip amount, average trip distance, and total number of Uber trips.
-![]()
+![](https://github.com/backfire250/uber_pipeline/blob/main/dashboard_screenshot.png)
