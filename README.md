@@ -26,7 +26,7 @@
 **Anaconda:** Collection of Python tools specifically tailored for Data Science projects.
 
 ## YouTube Project Walk-Through
-For this project, I followed the below YouTube video series to familiarize myself with some data science tools:
+For this project, I followed the below YouTube video to familiarize myself with some data engineering tools:
 https://www.youtube.com/watch?v=WpQECq5Hx9g
 
 ## Data Collection and Modeling
