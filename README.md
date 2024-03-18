@@ -55,7 +55,7 @@ I needed to clean up the data so that it would be consistent and usable for data
 * The pipeline automatically collected new data, cleaned it using the code I wrote in the "Data Cleaning" step, and sent the cleaned data to a location where it could be viewed in a dashboard.
 
 ## Dashboard Creation
-I created a simple dashboard here:
+I created a simple dashboard here: https://lookerstudio.google.com/u/0/reporting/8fc489bb-6131-4cad-a980-aacaf76b8e41/page/4UPbD
 * Using the tables I created for pickup and dropoff location, I was able to heatmap all of the various Uber trips and break them down by rate code and payment type.
 * I also created several graphs breaking down the average fare by rate code and payment type.
 * I then provided some general highlights from the data such as: average fare amount, average tip amount, average trip distance, and total number of Uber trips.
